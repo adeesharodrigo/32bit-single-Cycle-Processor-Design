@@ -1,0 +1,57 @@
+# Reading pref.tcl
+# do reg_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+D:/Engineering/ENTC/Semester\ 5/EN3030\ \ -\ Circuits\ and\ Systems\ Design/32bit-single-Cycle-Processor-Design/Lathika/reg {D:/Engineering/ENTC/Semester 5/EN3030  - Circuits and Systems Design/32bit-single-Cycle-Processor-Design/Lathika/reg/reg_file.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:56:41 on Feb 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Engineering/ENTC/Semester 5/EN3030  - Circuits and Systems Design/32bit-single-Cycle-Processor-Design/Lathika/reg" D:/Engineering/ENTC/Semester 5/EN3030  - Circuits and Systems Design/32bit-single-Cycle-Processor-Design/Lathika/reg/reg_file.v 
+# -- Compiling module reg_file
+# 
+# Top level modules:
+# 	reg_file
+# End time: 19:56:41 on Feb 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+D:/Engineering/ENTC/Semester\ 5/EN3030\ \ -\ Circuits\ and\ Systems\ Design/32bit-single-Cycle-Processor-Design/Lathika/reg {D:/Engineering/ENTC/Semester 5/EN3030  - Circuits and Systems Design/32bit-single-Cycle-Processor-Design/Lathika/reg/reg_file_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:56:42 on Feb 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Engineering/ENTC/Semester 5/EN3030  - Circuits and Systems Design/32bit-single-Cycle-Processor-Design/Lathika/reg" D:/Engineering/ENTC/Semester 5/EN3030  - Circuits and Systems Design/32bit-single-Cycle-Processor-Design/Lathika/reg/reg_file_tb.v 
+# -- Compiling module reg_file_tb
+# 
+# Top level modules:
+# 	reg_file_tb
+# End time: 19:56:42 on Feb 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  reg_file_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" reg_file_tb 
+# Start time: 19:56:42 on Feb 10,2023
+# Loading work.reg_file_tb
+# Loading work.reg_file
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# simtime=0, clk=x reg_wrt_en=x, rd=xxxxx, rd_data=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx,rs_1=xxxxx, rs_2 =xxxxx, rs_1_data=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx, rs_2_data=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+# simtime=5, clk=0 reg_wrt_en=0, rd=00000, rd_data=01000000000000000000000011001101,rs_1=00000, rs_2 =00001, rs_1_data=00000000000000000000000000000000, rs_2_data=00000000000000000000000000000000 
+# simtime=10, clk=1 reg_wrt_en=0, rd=00000, rd_data=01000000000000000000000011001101,rs_1=00000, rs_2 =00001, rs_1_data=00000000000000000000000000000000, rs_2_data=00000000000000000000000000000000 
+# simtime=15, clk=0 reg_wrt_en=1, rd=00000, rd_data=01000000000000000000000011001101,rs_1=00000, rs_2 =00001, rs_1_data=00000000000000000000000000000000, rs_2_data=00000000000000000000000000000000 
+# simtime=20, clk=1 reg_wrt_en=1, rd=00000, rd_data=01000000000000000000000011001101,rs_1=00000, rs_2 =00001, rs_1_data=01000000000000000000000011001101, rs_2_data=00000000000000000000000000000000 
+# simtime=25, clk=0 reg_wrt_en=0, rd=00010, rd_data=01000000000000000000000011001111,rs_1=00000, rs_2 =00010, rs_1_data=01000000000000000000000011001101, rs_2_data=00000000000000000000000000000000 
+# simtime=30, clk=1 reg_wrt_en=0, rd=00010, rd_data=01000000000000000000000011001111,rs_1=00000, rs_2 =00010, rs_1_data=01000000000000000000000011001101, rs_2_data=00000000000000000000000000000000 
+# simtime=35, clk=0 reg_wrt_en=0, rd=00010, rd_data=01000000000000000000000011001111,rs_1=00000, rs_2 =00010, rs_1_data=01000000000000000000000011001101, rs_2_data=00000000000000000000000000000000 
+# simtime=40, clk=1 reg_wrt_en=0, rd=00010, rd_data=01000000000000000000000011001111,rs_1=00000, rs_2 =00010, rs_1_data=01000000000000000000000011001101, rs_2_data=00000000000000000000000000000000 
+# End time: 21:58:57 on Feb 10,2023, Elapsed time: 2:02:15
+# Errors: 0, Warnings: 0
