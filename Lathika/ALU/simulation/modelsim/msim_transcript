@@ -1,0 +1,55 @@
+# Reading pref.tcl
+# do alu_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+D:/Engineering/ENTC/Semester\ 5/EN3030\ \ -\ Circuits\ and\ Systems\ Design/32bit-single-Cycle-Processor-Design/Lathika/ALU {D:/Engineering/ENTC/Semester 5/EN3030  - Circuits and Systems Design/32bit-single-Cycle-Processor-Design/Lathika/ALU/alu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:17:49 on Feb 11,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Engineering/ENTC/Semester 5/EN3030  - Circuits and Systems Design/32bit-single-Cycle-Processor-Design/Lathika/ALU" D:/Engineering/ENTC/Semester 5/EN3030  - Circuits and Systems Design/32bit-single-Cycle-Processor-Design/Lathika/ALU/alu.v 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 17:17:49 on Feb 11,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+D:/Engineering/ENTC/Semester\ 5/EN3030\ \ -\ Circuits\ and\ Systems\ Design/32bit-single-Cycle-Processor-Design/Lathika/ALU {D:/Engineering/ENTC/Semester 5/EN3030  - Circuits and Systems Design/32bit-single-Cycle-Processor-Design/Lathika/ALU/alu_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:17:50 on Feb 11,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Engineering/ENTC/Semester 5/EN3030  - Circuits and Systems Design/32bit-single-Cycle-Processor-Design/Lathika/ALU" D:/Engineering/ENTC/Semester 5/EN3030  - Circuits and Systems Design/32bit-single-Cycle-Processor-Design/Lathika/ALU/alu_tb.v 
+# -- Compiling module alu_tb
+# 
+# Top level modules:
+# 	alu_tb
+# End time: 17:17:50 on Feb 11,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  alu_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" alu_tb 
+# Start time: 17:17:50 on Feb 11,2023
+# Loading work.alu_tb
+# Loading work.alu
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# simtime =0, in_1=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx, in_2=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx, alu_ctrl=xxxx, alu_out=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx, zero=x
+# simtime =5, in_1=00000000000000000000000000000001, in_2=00000000000000000000000000000010, alu_ctrl=0000, alu_out=00000000000000000000000000000011, zero=0
+# simtime =10, in_1=00000000000000000000000000000010, in_2=00000000000000000000000000000001, alu_ctrl=0001, alu_out=00000000000000000000000000000001, zero=0
+# simtime =15, in_1=00000000000000000000000000000001, in_2=00000000000000000000000000000001, alu_ctrl=0001, alu_out=00000000000000000000000000000000, zero=1
+# simtime =20, in_1=00000000000000000000000000000010, in_2=00000000000000000000000000000011, alu_ctrl=0010, alu_out=00000000000000000000000000010000, zero=0
+# simtime =25, in_1=11111111111111111111111111111011, in_2=00000000000000000000000000000001, alu_ctrl=0011, alu_out=01111111111111111111111111111101, zero=0
+# simtime =30, in_1=11111111111111111111111111111011, in_2=00000000000000000000000000000001, alu_ctrl=0100, alu_out=11111111111111111111111111111101, zero=0
+# End time: 19:32:12 on Feb 11,2023, Elapsed time: 2:14:22
+# Errors: 0, Warnings: 0

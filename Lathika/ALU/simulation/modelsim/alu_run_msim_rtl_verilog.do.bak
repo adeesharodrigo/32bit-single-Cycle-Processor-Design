@@ -1,0 +1,9 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+D:/Engineering/ENTC/Semester\ 5/EN3030\ \ -\ Circuits\ and\ Systems\ Design/32bit-single-Cycle-Processor-Design/Lathika/ALU {D:/Engineering/ENTC/Semester 5/EN3030  - Circuits and Systems Design/32bit-single-Cycle-Processor-Design/Lathika/ALU/alu.v}
+

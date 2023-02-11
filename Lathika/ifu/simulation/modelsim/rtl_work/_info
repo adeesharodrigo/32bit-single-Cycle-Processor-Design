@@ -1,0 +1,83 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Engineering/ENTC/Semester 5/EN3030  - Circuits and Systems Design/32bit-single-Cycle-Processor-Design/Lathika/ifu/simulation/modelsim
+vifu
+Z1 !s110 1676141811
+!i10b 1
+!s100 @Oa>24P<n2kWRHWXiWE6l3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Idz3A[oB?G>C5E?SbHTkK62
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1676140649
+8D:/Engineering/ENTC/Semester 5/EN3030  - Circuits and Systems Design/32bit-single-Cycle-Processor-Design/Lathika/ifu/ifu.v
+FD:/Engineering/ENTC/Semester 5/EN3030  - Circuits and Systems Design/32bit-single-Cycle-Processor-Design/Lathika/ifu/ifu.v
+!i122 1
+L0 3 26
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1676141811.000000
+!s107 D:/Engineering/ENTC/Semester 5/EN3030  - Circuits and Systems Design/32bit-single-Cycle-Processor-Design/Lathika/ifu/ifu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Engineering/ENTC/Semester 5/EN3030  - Circuits and Systems Design/32bit-single-Cycle-Processor-Design/Lathika/ifu|D:/Engineering/ENTC/Semester 5/EN3030  - Circuits and Systems Design/32bit-single-Cycle-Processor-Design/Lathika/ifu/ifu.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work {+incdir+D:/Engineering/ENTC/Semester 5/EN3030  - Circuits and Systems Design/32bit-single-Cycle-Processor-Design/Lathika/ifu}
+Z8 tCvgOpt 0
+vifu_mem
+!s110 1676141810
+!i10b 1
+!s100 iT]A1VRAU_<=P9J;RZmN72
+R2
+IOIeKDj[=NfDOTgXgFlEon3
+R3
+R0
+w1676138784
+8D:/Engineering/ENTC/Semester 5/EN3030  - Circuits and Systems Design/32bit-single-Cycle-Processor-Design/Lathika/ifu/ifu_mem.v
+FD:/Engineering/ENTC/Semester 5/EN3030  - Circuits and Systems Design/32bit-single-Cycle-Processor-Design/Lathika/ifu/ifu_mem.v
+!i122 0
+L0 1 61
+R4
+r1
+!s85 0
+31
+!s108 1676141810.000000
+!s107 D:/Engineering/ENTC/Semester 5/EN3030  - Circuits and Systems Design/32bit-single-Cycle-Processor-Design/Lathika/ifu/ifu_mem.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Engineering/ENTC/Semester 5/EN3030  - Circuits and Systems Design/32bit-single-Cycle-Processor-Design/Lathika/ifu|D:/Engineering/ENTC/Semester 5/EN3030  - Circuits and Systems Design/32bit-single-Cycle-Processor-Design/Lathika/ifu/ifu_mem.v|
+!i113 1
+R6
+R7
+R8
+vifu_tb
+R1
+!i10b 1
+!s100 7kb?6<[b1g5]d[FUA^2JH0
+R2
+IEnFOId;jm;h^GCU5>:hHS2
+R3
+R0
+w1676141748
+8D:/Engineering/ENTC/Semester 5/EN3030  - Circuits and Systems Design/32bit-single-Cycle-Processor-Design/Lathika/ifu/ifu_tb.v
+FD:/Engineering/ENTC/Semester 5/EN3030  - Circuits and Systems Design/32bit-single-Cycle-Processor-Design/Lathika/ifu/ifu_tb.v
+!i122 2
+L0 2 38
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/Engineering/ENTC/Semester 5/EN3030  - Circuits and Systems Design/32bit-single-Cycle-Processor-Design/Lathika/ifu/ifu_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Engineering/ENTC/Semester 5/EN3030  - Circuits and Systems Design/32bit-single-Cycle-Processor-Design/Lathika/ifu|D:/Engineering/ENTC/Semester 5/EN3030  - Circuits and Systems Design/32bit-single-Cycle-Processor-Design/Lathika/ifu/ifu_tb.v|
+!i113 1
+R6
+R7
+R8

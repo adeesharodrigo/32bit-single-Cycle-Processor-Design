@@ -1,0 +1,32 @@
+module alu_tb;
+
+
+reg [31:0] in_1, in_2;
+reg [3:0] alu_ctrl;
+
+wire [31:0] alu_out;
+wire zero;
+
+initial
+begin
+$monitor("simtime =%g, in_1=%b, in_2=%b, alu_ctrl=%b, alu_out=%b, zero=%b", $time, in_1,in_2,alu_ctrl,alu_out,zero);
+
+end
+
+alu alu_(.in_1(in_1),.in_2(in_2), .alu_ctrl(alu_ctrl),.alu_out(alu_out),.zero(zero));
+
+initial
+begin
+	#5 in_1=32'b1 ;in_2=32'd2; alu_ctrl = 4'b0; //add
+	#5 in_1=32'd2 ;in_2=32'd1; alu_ctrl = 4'd1; //sub
+	#5 in_1=32'd1 ;in_2=32'd1; alu_ctrl = 4'd1; //compair
+	#5 in_1=32'd2 ;in_2=32'd3; alu_ctrl = 4'd2; //shift left
+	#5 in_1=~32'd4 ;in_2=32'd1; alu_ctrl = 4'd3; //shift right
+	#5 in_1=~32'd4 ;in_2=32'd1; alu_ctrl = 4'd4; //shift right arithmatic
+	#5;
+
+end
+
+
+endmodule
+

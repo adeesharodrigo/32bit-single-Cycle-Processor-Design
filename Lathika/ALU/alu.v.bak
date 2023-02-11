@@ -1,0 +1,22 @@
+module ALU(
+input clk,
+input [31:0] in_1,
+input [31:0] in_2,
+input [3:0] alu_ctrl,
+
+output [31:0] alu_out,
+output zero
+
+);
+
+always @ (clk)
+begin
+	case (alu_ctrl)
+		4'b0000 : alu_out = in_1 + in_2; //add
+		4'b0001 : alu_out = in_1 - in_2; //sub
+		
+	
+end
+
+
+endmodule
